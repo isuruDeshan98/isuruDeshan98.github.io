@@ -3,7 +3,7 @@
 Lavish HTML CSS Template
 
 https://templatemo.com/tm-458-lavish
-		
+
 */
 
 body
@@ -24,9 +24,13 @@ body
 #work .fp-slide,
 #work .fp-tableCell,
 
-#about,
-#about .fp-slide,
-#about .fp-tableCell,
+#about1,
+#about1 .fp-slide,
+#about1 .fp-tableCell,
+
+#about2,
+#about2 .fp-slide,
+#about2 .fp-tableCell,
 
 #contact,
 #contact .fp-slide,
@@ -54,7 +58,7 @@ h1,h2,h3,h4,h5
 /* end all heading */
 
 /* start all section */
-#work, #about, #portfolio, #contact
+#work, #about1, #about2, #portfolio, #contact
     {
         padding-top: 100px;
         padding-bottom: 120px;
@@ -127,7 +131,7 @@ h1,h2,h3,h4,h5
   z-index: 2;
   display: block;
   opacity: 1;
-  
+
   -webkit-transform: rotateY(180deg) translate3d(0,0,0);
   -moz-transform: rotateY(180deg) translate3d(0,0,0);
   -ms-transform: rotateY(180deg) translate3d(0,0,0);
@@ -168,7 +172,7 @@ h1,h2,h3,h4,h5
 }
 /* end simpletextrotator */
 
-/* start home */       
+/* start home */
 #home
 	{
         background: url('../images/home-bg.jpg');
@@ -225,7 +229,7 @@ h1,h2,h3,h4,h5
     {
       margin-top: 30px;
     }
-	
+
 #work .media .fa
     {
         border: 2px solid #ffffff;
@@ -253,46 +257,79 @@ h1,h2,h3,h4,h5
     }
 /* end work */
 
-/* start about */
-#about h4
+/* start about1 */
+#about1
+{
+		background: #1a1a1a;
+}
+#about1 h4
     {
         padding: 15px 0;
 		color: #D43F52;
     }
-#about .progress
+#about1 .progress
     {
         border-radius: 4px;
         background: #ffffff;
         height: 4px;
     }
-#about .progress .progress-bar-danger
+#about1 .progress .progress-bar-danger
     {
         background: #D43F52;
     }
-#about .text-top
+#about1 .text-top
     {
         padding-top: 50px;
     }
-#about span
+#about1 span
     {
         color: #ffffff;
         font-weight: bold;
         display: block;
         padding-bottom: 6px;
     }
-#about small
+#about1 small
     {
         font-weight: bold;
         float: right;
     }
-/* end about */
+/* end about1 */
+/* start about2 */
+
+#about2 h4
+    {
+        padding: 15px 0;
+		color: #D43F52;
+    }
+#about2 .progress
+    {
+        border-radius: 4px;
+        background: #ffffff;
+        height: 4px;
+    }
+#about2 .progress .progress-bar-danger
+    {
+        background: #D43F52;
+    }
+#about2 .text-top
+    {
+        padding-top: 50px;
+    }
+#about2 span
+    {
+        color: #ffffff;
+        font-weight: bold;
+        display: block;
+        padding-bottom: 6px;
+    }
+#about2 small
+    {
+        font-weight: bold;
+        float: right;
+    }
+/* end about2 */
 
 /* start portfolio */
-#portfolio
-    {
-        background: #1a1a1a;
-        text-align: center;
-    }
 #portfolio h2
     {
         padding-bottom: 30px;
@@ -331,7 +368,7 @@ h1,h2,h3,h4,h5
     {
       padding-bottom: 18px;
     }
-	
+
 #contact .contact-title
     {
 		font-size: 24px;
